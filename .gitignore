@@ -28,3 +28,9 @@ hs_err_pid*
 /build/
 /run/
 /.settings/
+
+# intellij
+*.iml
+*.ipr
+*.iws
+.idea/

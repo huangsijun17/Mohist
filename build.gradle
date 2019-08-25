@@ -19,6 +19,7 @@ archivesBaseName = "${mod_name}"
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
 
 minecraft {
     version = "${version_minecraft}-${version_forge}"
